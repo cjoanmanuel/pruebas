@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento HTML a su estructura tipo árbol</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+</head>
+
+<body>
+<h1>Tema 5 - Ejercicio P2P opcional </h1>
+<p>Realiza un <strong>esquema sencillo de este documento HTML a su estructura tipo árbol</strong>, que resuma brevemente las relaciones directas entre elementos de la página, <em>clarificando la jerarquía del árbol</em>.</p>
+<ul>
+  <li>html
+      <ul>
+        <li>head
+            <ul>
+                <li>meta</li>
+                <li>title</li>
+            </ul>
+        </li>
+        <li>body
+            <ul>
+                <li>header
+                    <ul>
+                        <li>img</li>
+                    </ul>                    
+                    
+                </li>
+                <li>nav
+                    <ul>
+                        <li>ul
+                            <ul>
+                                <li>li</li>
+                                <li>li</li>
+                                <li>li</li>
+                            </ul>                        
+                        </li>
+                    </ul>                
+                
+                </li>
+                <li>article
+                    <ul>
+                        <li>h1</li>
+                        <li>p</li>
+                    </ul>                
+                
+                </li>
+                <li>footer</li>
+            </ul>        
+          
+        </li>
+      </ul>
+  </li>
+</ul>
+<img id="arbol" src="img/OrgCharthtml5herencia.png" alt="Jerarquía del árbol html"/>
+
+<h1>Código html</h1>    
+<code><pre>
+        &lt;!doctype html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;title&gt;Ejercicio opcional &#225;rbol&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;header&gt;
+            &lt;img src=&quot;firefox-os.png&quot; alt=&quot;FirefoxOS Logo&quot; width=&quot;200&quot;
+            height=&quot;164&quot;&gt;
+        &lt;/header&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Men&#250; 1&lt;/li&gt;
+                &lt;li&gt;Men&#250; 2&lt;/li&gt;
+                &lt;li&gt;Men&#250; 3&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+        &lt;article&gt;
+            &lt;h1&gt;Titular de nivel 1&lt;/h1&gt;
+            &lt;p&gt;Contenido de la p&#225;gina&lt;/p&gt;
+        &lt;/article&gt;
+        &lt;footer&gt;Pie de p&#225;gina&lt;/footer&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+</pre></code>
+</body>
+</html>
